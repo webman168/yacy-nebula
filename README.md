@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">Yacy Nebula</h1>
 
-A custom version of [Yacy](https://github.com/yacy/yacy_search_server) for the modern age
+A custom version of [Yacy](https://github.com/yacy/yacy_search_server) created by webman168.
 </div>
 
 
