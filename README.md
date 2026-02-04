@@ -1,7 +1,7 @@
 <div align="center">
-<h1 align="center">YaCy</h1>
+<h1 align="center">Yacy Nebula</h1>
 
-Search Engine Software
+A custom version of [Yacy](https://github.com/yacy/yacy_search_server) for the modern age
 
 
 [![YaCy Home Page](https://img.shields.io/badge/YaCy%20Home%20Page-5090D0)](https://yacy.net)
