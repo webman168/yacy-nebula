@@ -21,7 +21,7 @@ sudo apt-get install openjdk-11-jdk-headless ant
 Then clone the repository and build the application:
 
 ```
-git clone --depth 1 https://github.com/yacy/yacy_search_server.git
+git clone --depth 1 https://github.com/webman168/yacy-nebula/
 cd yacy_search_server
 ant clean all
 ```
