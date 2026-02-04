@@ -2,18 +2,6 @@
 <h1 align="center">Yacy Nebula</h1>
 
 A custom version of [Yacy](https://github.com/yacy/yacy_search_server) for the modern age
-
-
-[![YaCy Home Page](https://img.shields.io/badge/YaCy%20Home%20Page-5090D0)](https://yacy.net)
-[![YaCy Discourse Forums](https://img.shields.io/discourse/status?server=https%3A%2F%2Fcommunity.searchlab.eu%2F&label=YaCy%20Discourse%20Forums)](https://community.searchlab.eu/)
-[![become a Github Sponsor](https://img.shields.io/badge/Become_a_Github_Sponsor-for_YaCy-green)](https://github.com/sponsors/Orbiter)
-[![become a Patreon Member](https://img.shields.io/badge/Become_a_Patreon_Member-for_YaCy-green)](https://www.patreon.com/bePatron?u=185903)
-[![Build Status](https://github.com/yacy/yacy_search_server/actions/workflows/ant-build-selfhosted.yaml/badge.svg)](https://github.com/yacy/yacy_search_server/actions/workflows/ant-build-selfhosted.yaml)
-[![Install Link](https://img.shields.io/badge/install-stable-blue.svg)](https://yacy.net/download_installation/)
-
-![Web Search](./screenshots/screenshot_web_search.png)
-![Crawl Start](./screenshots/screenshot_expert_crawl_start.png)
-![Index Browser](./screenshots/screenshot_index_browser.png)
 </div>
 
 
