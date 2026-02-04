@@ -9,14 +9,13 @@ A custom version of [Yacy](https://github.com/yacy/yacy_search_server) created b
 Yacy Nebula is a distributed web search engine based on the original YaCy. The original was developed by Michael Peter Christen.
 
 ## Installation
-We recommend to compile YaCy yourself and install it from the git sources.
-Pre-compiled YaCy packages exist but are not generated on a regular basis.
-Automaticaly built latest developer release is available at
-[release.yacy.net](https://release.yacy.net/).
-To get a ready-to-run production package, run YaCy from Docker.
+Yacy Nebula is written in Java and can be compiled using a Java 11 or 17 JDK and apache ant.
+
+Pre-compiled YaCy packages may be available at a later date.
+
+You need Java 11 or later to run Yacy Nebula.
 
 ### Compile and run YaCy from git sources
-You need Java 11 or later to run YaCy and ant to build YaCy.
 This would install the requirements on debian:
 
 ```
@@ -78,13 +77,4 @@ scripts you can easily create more shell API access methods.
 This project is available as open source under the terms of the GPL 2.0 or later. However, some elements are being licensed under GNU Lesser General Public License. For accurate information, please check individual files. As well as for accurate information regarding copyrights.
 The (GPLv2+) source code used to build YaCy is distributed with the package (in /source and /htroot).
 
-## Contact
 
-[Visit the international YaCy forum](https://community.searchlab.eu)
-where you can start a discussion there in your own language.
-
-Questions and requests for paid customization and integration into enterprise solutions.
-can be sent to the maintainer, Michael Christen per e-mail (at mc@yacy.net)
-with a meaningful subject including the word 'YaCy' to prevent it getting stuck in the spam filter.
-
-- Michael Peter Christen
