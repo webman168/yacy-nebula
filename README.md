@@ -1,12 +1,8 @@
 <div align="center">
 <h1 align="center">Yacy Nebula</h1>
 
-A custom version of [Yacy](https://github.com/yacy/yacy_search_server) created by webman168.
+A custom version of [Yacy](https://github.com/yacy/yacy_search_server) created by webman168. Original developed by Michael Peter Christen.
 </div>
-
-
-## What is Yacy Nebula?
-Yacy Nebula is a distributed web search engine based on the original YaCy. The original was developed by Michael Peter Christen.
 
 ## Installation
 Yacy Nebula is written in Java and can be compiled using a Java 11 or 17 JDK and apache ant.
