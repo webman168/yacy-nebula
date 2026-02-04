@@ -5,36 +5,10 @@ A custom version of [Yacy](https://github.com/yacy/yacy_search_server) for the m
 </div>
 
 
-## What is YaCy?
-
-YaCy is a full search engine application containing a server hosting a search index,
-a web application to provide a nice user front-end for searches and index creation
-and a production-ready web crawler with a scheduler to keep a search index fresh.
-
-YaCy search portals can also be placed in an intranet environment, making
-it a replacement for commercial enterprise search solutions. A network
-scanner makes it easy to discover all available HTTP, FTP and SMB servers.
-
-Running a personal Search Engine is a great tool for privacy; indeed YaCy
-was created with the privacy aspect as priority motivation for the project.
-
-You can also use YaCy with a customized search page in your own web applications.
-
-## Large-Scale Web Search with a Peer-to-Peer Network
-
-Each YaCy peer can be part of a large search network where search indexes can be
-exchanged with other YaCy installation over a built-in peer-to-peer network protocol.
-
-This is the default operation that enables new users to instantly access
-a large-scale search cluster, operated only by YaCy users.
-
-You can opt-out from the YaCy cluster operation by choosing a different operation
-mode in the web interface. You can also opt-out from the network in individual searches,
-turning the use of YaCy a completely privacy-aware tool - in this operation mode search
-results are computed from the local index only.
+## What is Yacy Nebula?
+Yacy Nebula is a distributed web search engine based on the original YaCy.
 
 ## Installation
-
 We recommend to compile YaCy yourself and install it from the git sources.
 Pre-compiled YaCy packages exist but are not generated on a regular basis.
 Automaticaly built latest developer release is available at
@@ -42,7 +16,6 @@ Automaticaly built latest developer release is available at
 To get a ready-to-run production package, run YaCy from Docker.
 
 ### Compile and run YaCy from git sources
-
 You need Java 11 or later to run YaCy and ant to build YaCy.
 This would install the requirements on debian:
 
@@ -74,39 +47,6 @@ Stop YaCy on the console with
 ```
 ./stopYACY.sh
 ```
-
-### Build the Windows installer
-
-Windows installers are built with NSIS and require the release payload produced by Ant.
-Install NSIS (`makensis`) and then run:
-
-```
-ant distWinInstaller
-```
-
-This runs the full build, stages files into `RELEASE/MAIN`, and produces the installer
-in `RELEASE/` as `yacy_v<version>_*.exe`.
-
-If you want it in two steps, you can run:
-
-```
-ant copyMain4Dist
-makensis RELEASE/WINDOWS/build.nsi
-```
-
-### Run YaCy using Docker
-
-The Official YaCy Image is `yacy/yacy_search_server:latest`. It is hosted on Dockerhub at [https://hub.docker.com/r/yacy/yacy_search_server](https://hub.docker.com/r/yacy/yacy_search_server)
-
-To install YaCy in intel-based environments, run:
-
-```
-docker run -d --name yacy_search_server -p 8090:8090 -p 8443:8443 -v yacy_search_server_data:/opt/yacy_search_server/DATA --restart unless-stopped --log-opt max-size=200m --log-opt max-file=2 yacy/yacy_search_server:latest
-```
-then open http://localhost:8090 in your web-browser.
-
-For building Docker image from latest sources, see [docker/Readme.md](docker/Readme.md).
-
 
 ## Help develop YaCy
 
