@@ -6,7 +6,7 @@ A custom version of [Yacy](https://github.com/yacy/yacy_search_server) for the m
 
 
 ## What is Yacy Nebula?
-Yacy Nebula is a distributed web search engine based on the original YaCy.
+Yacy Nebula is a distributed web search engine based on the original YaCy. The original was developed by Michael Peter Christen.
 
 ## Installation
 We recommend to compile YaCy yourself and install it from the git sources.
